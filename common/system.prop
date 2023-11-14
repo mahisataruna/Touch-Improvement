@@ -1,0 +1,21 @@
+# This file will be read by resetprop
+
+# Change DPI
+# ro.sf.lcd_density=320
+
+# Touch Improvement
+touch.pressure.scale=0.001
+persist.sys.ui.hw=1
+touch.size.calibration=diameter 
+touch.size.scale=1 
+touch.size.bias=0 
+touch.size.isSummed=0 
+touch.orientation.calibration=none 
+touch.distance.calibration=none 
+touch.distance.scale=0 
+touch.coverage.calibration=box 
+touch.gestureMode=spots 
+MultitouchSettleInterval=1ms 
+MultitouchMinDistance=1px 
+TapInterval=1ms 
+TapSlop=1px
