@@ -27,7 +27,7 @@ The Touch Improvement is a Magisk module which functions to improve your android
 
 ## Changelog
 
-- Check out what's new [here](https://github.com/mahisataruna/Touch-Improvement/blob/Beta.1.0/CHANGELOG.md)
+- Check out what's new [here](https://github.com/mahisataruna/Touch-Improvement/blob/Release.v1.0.0/CHANGELOG.md)
 
 ## Link
 
