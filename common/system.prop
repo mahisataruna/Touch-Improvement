@@ -4,7 +4,7 @@
 # ro.sf.lcd_density=320
 
 # Touch Improvement
-touch.pressure.scale=0.0001
+touch.pressure.scale=0.001
 view.scroll_friction=10
 touch.size.calibration=diameter
 touch.pressure.calibration=amplitude 
@@ -35,3 +35,12 @@ persist.af.resampler.quality=255
 persist.dev.pm.dyn_samplingrate=1
 persist.service.lgospd.enable=0
 persist.service.pcsync.enable=0
+
+#Improve sliding response
+windowsmgr.max_events_per_sec=90
+view.scroll_friction=0
+ro.min_pointer_dur=8
+touch.deviceType=touchScreen
+debug.egl.hw=1
+video.accelerate.hw=1
+view.scroll_friction=0
