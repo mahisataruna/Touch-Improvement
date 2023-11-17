@@ -4,9 +4,10 @@
 # ro.sf.lcd_density=320
 
 # Touch Improvement
-touch.pressure.scale=0.001
-persist.sys.ui.hw=1
-touch.size.calibration=diameter 
+touch.pressure.scale=0.0001
+view.scroll_friction=10
+touch.size.calibration=diameter
+touch.pressure.calibration=amplitude 
 touch.size.scale=1 
 touch.size.bias=0 
 touch.size.isSummed=0 
@@ -19,3 +20,18 @@ MultitouchSettleInterval=1ms
 MultitouchMinDistance=1px 
 TapInterval=1ms 
 TapSlop=1px
+windowsmgr.max_events_per_sec=180
+ro.min_pointer_dur=4
+ro.max.fling_velocity=18000
+ro.min.fling_velocity=6000
+ro.product.multi_touch_enabled=true
+ro.product.max_num_touch=10
+ro.securestorage.knox=false
+security.mdpp=none
+security.mdpp.result=none
+af.resampler.quality=255
+persist.sys.scrollingcache=3
+persist.af.resampler.quality=255
+persist.dev.pm.dyn_samplingrate=1
+persist.service.lgospd.enable=0
+persist.service.pcsync.enable=0
