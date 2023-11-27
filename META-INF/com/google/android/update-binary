@@ -1,4 +1,5 @@
 #!/sbin/sh
+
 TMPDIR=/dev/tmp
 MOUNTPATH=/dev/magisk_img
 
@@ -13,9 +14,9 @@ mkdir -p $TMPDIR
 ui_print() { echo "$1"; }
 
 require_new_magisk() {
-  ui_print "*******************************"
-  ui_print " Please install Magisk v23.0+! "
-  ui_print "*******************************"
+  ui_print "***********************************"
+  ui_print " Please install the latest Magisk! "
+  ui_print "***********************************"
   exit 1
 }
 

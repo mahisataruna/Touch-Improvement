@@ -34,24 +34,6 @@ POSTFSDATA=false
 LATESTARTSERVICE=false
 
 ##########################################################################################
-# Installation Message
-##########################################################################################
-
-# Set what you want to show when installing your mod
-
-print_modname() {
-  ui_print "*******************************"
-  ui_print " Touch Improvement "
-  ui_print "   Kreapic "
-  ui_print "   Version 1.0 "
-  sleep 2
-  ui_print "*******************************"
-  ui_print "   Improve your android touch response/sampling rate "
-  ui_print "*******************************"
-  sleep 1
-}
-
-##########################################################################################
 # Replace list
 ##########################################################################################
 
@@ -80,6 +62,24 @@ REPLACE="
 # update-binary. Refrain from adding code directly into update-binary, as it will make it
 # difficult for you to migrate your modules to newer template versions.
 # Make update-binary as clean as possible, try to only do function calls in it.
+
+##########################################################################################
+# Installation Message
+##########################################################################################
+
+# Set what you want to show when installing your mod
+
+print_modname() {
+  ui_print "*******************************"
+  ui_print " Touch Improvement "
+  ui_print "   Kreapic "
+  ui_print "   Version 1.0 "
+  sleep 2
+  ui_print "*******************************"
+  ui_print "   Improve your android touch response/sampling rate "
+  ui_print "*******************************"
+  sleep 1
+}
 
 on_install() {
   ui_print "Touch improve for your android, better samplig rate"
